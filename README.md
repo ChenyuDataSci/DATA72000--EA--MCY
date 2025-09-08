@@ -1,4 +1,4 @@
-# DATA72000--Environmental Analysis
+# DATA72000--Extended Research Project (Environmental Analysis)
 
 ### This repository contains the code and data materials for my MSc ERP project.  
 

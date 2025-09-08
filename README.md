@@ -33,7 +33,7 @@ Contains all input datasets required for the analysis.
 ### Note: The full daily PM2.5 dataset is too large to upload. It can be downloaded directly from the UK-AIR website (Pollutant = PM2.5, Years = 2020–2025, Format = CSV).  
 ### https://uk-air.defra.gov.uk/data/  
 
-## code.notebook
+## code.ipynb
 
 The main Jupyter Notebook containing the full workflow, including:  
 •Data preprocessing and feature extraction  

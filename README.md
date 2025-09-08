@@ -1,6 +1,6 @@
 # DATA72000--Environmental Analysis
 
-This repository contains the code and data materials for my MSc Dissertation / ERP project.  
+### This repository contains the code and data materials for my MSc ERP project.  
 
 The aim of this study is to compare three modelling approaches for predicting long-term mean PM2.5 concentrations across the United Kingdom:  
 

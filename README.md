@@ -13,12 +13,18 @@ The aim of this study is to compare three modelling approaches for predicting lo
 
 The work demonstrates both the strengths and limitations of applying advanced machine learning methods under sparse monitoring conditions, and provides recommendations for environmental monitoring policy.
 
-Key dependencies (see requirements.txt for full list):  
-•	Python 3.10+  
-•	rasterio  
-•	geopandas  
-•	numpy / pandas  
-•	scikit-learn  
-•	tensorflow / tensorflow-probability  
-•	mgwr  
-•	matplotlib / seaborn  
+data/
+│
+├── TIF/                  # Raster predictor variables (geospatial layers)
+│   ├── AllRoads_1km.tif
+│   ├── Altitude_1km.tif
+│   ├── Industrial_1km.tif
+│   ├── MajorRoads_1km.tif
+│   ├── Nature_1km.tif
+│   ├── Ports_1km.tif
+│   ├── Residential_1km.tif
+│   ├── TotalBuild_1km.tif
+│   └── UrbanGreen_1km.tif
+│
+├── uk_pm_2020.csv        # Daily PM2.5 monitoring data for 2020
+└── uk_pm_2021-2025.csv   # Daily PM2.5 monitoring data for 2021–2025

@@ -14,7 +14,7 @@ The aim of this study is to compare three modelling approaches for predicting lo
 The work demonstrates both the strengths and limitations of applying advanced machine learning methods under sparse monitoring conditions, and provides recommendations for environmental monitoring policy.
 
 
-data/  
+## data/  
 
 Contains all input datasets required for the analysis.  
 	•	TIF/ – Raster predictor variables (geospatial layers), including:  
@@ -30,17 +30,16 @@ Contains all input datasets required for the analysis.
 	•	uk_pm_2020.csv – Daily PM2.5 monitoring data for 2020 (from UK-AIR)  
 	•	uk_pm_2021-2025.csv – Daily PM2.5 monitoring data for 2021–2025 (from UK-AIR)  
 
-⚠️ Note: The full daily PM2.5 dataset is too large to upload. It can be downloaded directly from the UK-AIR website (Pollutant = PM2.5, Years = 2020–2025, Format = CSV).  
-https://uk-air.defra.gov.uk/data/  
+### Note: The full daily PM2.5 dataset is too large to upload. It can be downloaded directly from the UK-AIR website (Pollutant = PM2.5, Years = 2020–2025, Format = CSV).  
+### https://uk-air.defra.gov.uk/data/  
 
-code.notebook
+## code.notebook
 
 The main Jupyter Notebook containing the full workflow, including:
-	•	Data preprocessing and feature extraction
-	•	Exploratory analysis (EDA) and multicollinearity checks (VIF)
-	•	Model training (Random Forest, Bayesian Neural Network, GWR)
-	•	Evaluation, visualisation, and uncertainty mapping  
+•Data preprocessing and feature extraction
+•Exploratory analysis (EDA) and multicollinearity checks (VIF)
+•Model training (Random Forest, Bayesian Neural Network, GWR)
+•Evaluation, visualisation, and uncertainty mapping  
 
- requirements.txt
-
+## requirements.txt/
 Lists all Python package dependencies (with pinned versions) needed to reproduce the analysis.

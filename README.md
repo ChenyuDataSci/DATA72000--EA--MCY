@@ -12,3 +12,13 @@ The aim of this study is to compare three modelling approaches for predicting lo
 
 
 The work demonstrates both the strengths and limitations of applying advanced machine learning methods under sparse monitoring conditions, and provides recommendations for environmental monitoring policy.
+
+Key dependencies (see requirements.txt for full list):
+•	Python 3.10+
+•	rasterio
+•	geopandas
+•	numpy / pandas
+•	scikit-learn
+•	tensorflow / tensorflow-probability
+•	mgwr
+•	matplotlib / seaborn
